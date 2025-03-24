@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:cover;
+    font-family:'Google Sans','Noto Sans Myanmar UI','Arial',Helvetica,sans-serif;
+
+}
+.form{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50% -50%);
+    width:25rem;
+    padding:2.5rem;
+    box-sizing:border-box;
+    border:1px solid white;
+    border-radius:8px;
+}
+.google.logo{
+    display:flex;
+    justify-content:center;
+    padding-bottom: 15px;
+}
+.box h2{
+     margin:0  0 -0.125rem;
+     padding:0;
+     color:#1b1a1a;
+     text-align: center;
+     font-size:24px;
+     font-weight:bold;
+}
+.box p{
+    font-size:16px;
+    font-weight:normal;
+    letter-spacing:.1px;
+    line-height:1.5;
+    margin-bottom:25px;
+    text-align: center;
+}
+.box .inputBox{
+    position:relative;
+}
+.box .inputBox input{
+    width:93%;
+    padding:0.625rem 10px;
+    font-size:1rem;
+    letter-spacing:0.062rem;
+    margin-bottom:1.875rem;
+    border:1px solid #ccc;
+    background: transparent;
+    border-radius:4px;
+}
+box .inputBox label{
+    position:absolute;
+    top:0;
+    left:10px;
+    padding:0.625rem 0;
+    font-size:1rem;
+    color:#ccc;
+    pointer-events:none;
+    transition:0.3s;
+}
